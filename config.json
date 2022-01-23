@@ -1,0 +1,60 @@
+{
+    "layers": {
+        "layersBasePath": "layers",
+        "rarityDelimiter": "#",
+        "layersInOrder": [
+            {"path":  "Background"},
+            {"path":  "Face"},
+            {"path":  "Eyes"},
+            {"path":  "Headgear"}
+        ]
+    },
+
+    "outputBasePath": "output",
+    "totalImages": 8,
+    "imageOptions": {
+        "outputPath": "images",
+        "format": "jpg",
+        "jpgQuality": 75,
+        "width": 300,
+        "height": 300 
+    },
+    "generateThumbnails": true,
+    "thumbnailOptions": {
+        "outputPath": "thumbnails",
+        "format": "jpg",
+        "jpgQuality": 75,
+        "width": 128,
+        "height": 128
+    },
+    "metadataOptions": {
+        "outputPath": "metadata",
+        "format": "solana",
+        "name": "Doodle Crocs",
+        "description": "Doodle Crocs is another collection from The awesome Camo Crocs family of NFTs. Camo Crocs is available on Magic Eden.",
+        "externalUrl": "https://magiceden.io/marketplace/camo_crocs",
+        "extras": {
+            "symbol": "CROC",
+            "seller_fee_basis_points": 500,
+            "edition": 0,
+            "creators": [
+              {
+                "address": "your_wallet",
+                "share": 50
+              },
+              {
+                "address": "your_partner_wallet",
+                "share": 50
+              }
+            ]
+        }
+    },
+    "metadataUpdateOptions": {
+        "imageUris": "_imageuris.csv"
+    },
+    "runtime": {
+        "useConcurrency": true,
+        "useRandomSeed": false,
+        "randomSeed": 14015075
+    }
+}
